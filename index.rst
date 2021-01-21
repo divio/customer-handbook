@@ -6,12 +6,21 @@
 Divio user handbook
 ====================
 
-This is the main index.
+Manage your account
+-------------------
 
 .. toctree::
     :maxdepth: 1
- 
-    get-started/index
-    how-to/index
-    reference/index
 
+    Upload your SSH public key <setup-ssh-key>
+    Enable Beta features <enable-beta-feature>
+    Delete your account <delete-account>
+
+
+Manage your projects
+--------------------
+
+.. toctree::
+    :maxdepth: 1
+
+    Delete a project <delete-project>
