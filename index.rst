@@ -22,5 +22,6 @@ Manage your projects
 
 .. toctree::
     :maxdepth: 1
-
+    
+    The Developer Plan <developer-plan>
     Delete a project <delete-project>
