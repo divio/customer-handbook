@@ -6,8 +6,11 @@
 Divio user handbook
 ====================
 
+How to
+------
+
 Manage your account
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
     :maxdepth: 1
@@ -18,10 +21,18 @@ Manage your account
 
 
 Manage your projects
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
     :maxdepth: 1
-    
-    The Developer Plan <developer-plan>
+
     Delete a project <delete-project>
+
+
+Essential knowledge
+-------------------
+
+.. toctree::
+    :maxdepth: 1
+
+    The Developer plan <developer-plan>
