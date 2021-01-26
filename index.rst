@@ -36,3 +36,4 @@ Essential knowledge
     :maxdepth: 1
 
     The Developer plan <developer-plan>
+    RAM and Storage Policy <ram-storage-policy>
