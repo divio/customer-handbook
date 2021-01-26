@@ -36,3 +36,4 @@ Essential knowledge
     :maxdepth: 1
 
     The Developer plan <developer-plan>
+    Security on Divio <security-policy>
