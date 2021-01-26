@@ -19,7 +19,6 @@ Manage your account
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
 
-
 Manage your projects
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -27,6 +26,7 @@ Manage your projects
     :maxdepth: 1
 
     Delete a project <delete-project>
+    Backup a project <backup-project>
 
 
 Essential knowledge
@@ -36,3 +36,4 @@ Essential knowledge
     :maxdepth: 1
 
     The Developer plan <developer-plan>
+    Divio project backups <project-backups>
