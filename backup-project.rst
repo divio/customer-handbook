@@ -15,7 +15,7 @@ How to create backups
 
 * **On-demand backups** can be made whenever you require.
 
-See also further information on `Divio backup system <../project-backups>`_.
+See also further information on :ref:`Divio backup system <project-backups>`.
 
 To create a backup, from the *Backups* view of your project, 
 

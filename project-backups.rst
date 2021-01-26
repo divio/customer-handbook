@@ -11,7 +11,7 @@ Backups on Divio are in accordance with two key principles.
 * Portability - your project belongs to you. Your data and content must be as portable as possible, 
   so that you can sign up to our services confident that you will never find yourself locked in to them.
 
-See also detailed information on `how to backup a project <../backup-project>`_.
+See also detailed information on :ref:`how to backup a project <backup-project>`.
 
 What’s backed up?
 -----------------
