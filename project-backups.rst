@@ -3,15 +3,18 @@
 Divio project backups
 =====================
 
+..  seealso::
+
+    :ref:`How to backup your projects <backup-project>`.
+
 Our backup system is designed with pragmatic, real-world needs and concerns in mind.
 
 Backups on Divio are in accordance with two key principles.
 
-* Data integrity - the integrity of your data and content is paramount, and they must be kept safe. 
-* Portability - your project belongs to you. Your data and content must be as portable as possible, 
+* Data integrity - the integrity of your data and content is paramount, and they must be kept safe.
+* Portability - your project belongs to you. Your data and content must be as portable as possible,
   so that you can sign up to our services confident that you will never find yourself locked in to them.
 
-See also detailed information on :ref:`how to backup a project <backup-project>`.
 
 What’s backed up?
 -----------------
@@ -23,8 +26,10 @@ Our backup system takes care of your project’s:
 
 Your backups are made to encrypted storage.
 
-.. note:: 
-  Your project’s codebase is not captured in our backups, as it already versioned in Git.
+..  note::
+
+    Your project’s codebase is not captured in our backups, as it already versioned in Git.
+
 
 Scheduled and on-demand backups
 -------------------------------
@@ -32,7 +37,8 @@ Scheduled and on-demand backups
 Backups are initiated in two different ways:
 
 * on-demand - when the user requests it
-* scheduled - according to a schedule determined by the project's subscription, by default it is automatically done daily.
+* scheduled - according to a schedule determined by the project's subscription
+
 
 Retention policies
 ------------------
@@ -40,19 +46,22 @@ Retention policies
 On-demand backups
 ^^^^^^^^^^^^^^^^^
 
-Various policies are available, but in all environments this is set by default to a 30 days/3 backups policy, 
-meaning that these backups will be retained indefinitely; however, of those that are more than 30 days old, 
+Various policies are available, but in all environments this is set by default to a 30 days/3 backups policy,
+meaning that these backups will be retained indefinitely; however, of those that are more than 30 days old,
 only the three most recent will be retained.
+
 
 Scheduled backups
 ^^^^^^^^^^^^^^^^^
 
-Various policies are available but in all environments this is set by default to a 7-daily/4-weekly/12-monthly *grandfather-father-son* policy.
-This means that:
+Various policies are available but in all environments this is set by default to a 7-daily/4-weekly/12-monthly
+*grandfather-father-son* policy. This means that:
 
 * Each day, the system will take a backup, and discard any daily backups older than seven days.
-* Each week, it will relabel the oldest daily backup as a weekly backup and discard any weekly backups older than one month.
-* Each month, it will relabel the oldest weekly backup as a monthly backup and discard any monthly backups older than one year.
+* Each week, it will relabel the oldest daily backup as a weekly backup and discard any weekly backups older than one
+  month.
+* Each month, it will relabel the oldest weekly backup as a monthly backup and discard any monthly backups older than
+  one year.
 
 After a year, the system will have retained:
 

@@ -6,6 +6,9 @@
 Divio user handbook
 ====================
 
+
+..  rst-class:: column
+
 How to
 ------
 
@@ -26,8 +29,10 @@ Manage your projects
     :maxdepth: 1
 
     Delete a project <delete-project>
-    Backup a project <backup-project>
+    Use our backup system <backup-project>
 
+
+..  rst-class:: column
 
 Essential knowledge
 -------------------
