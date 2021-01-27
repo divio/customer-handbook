@@ -6,6 +6,9 @@
 Divio user handbook
 ====================
 
+
+..  rst-class:: column
+
 How to
 ------
 
@@ -19,7 +22,6 @@ Manage your account
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
 
-
 Manage your projects
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -28,7 +30,6 @@ Manage your projects
 
     Delete a project <delete-project>
     Use our backup system <backup-project>
-
 
 ..  rst-class:: column
 
