@@ -41,4 +41,4 @@ Essential knowledge
 
     The Developer plan <developer-plan>
     Divio project backups <project-backups>
-    Security on Divio <security-policy>
+    Security <security-policy>
