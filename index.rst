@@ -31,7 +31,6 @@ Manage your projects
     Delete a project <delete-project>
     Use our backup system <backup-project>
 
-
 ..  rst-class:: column
 
 Essential knowledge
@@ -42,3 +41,4 @@ Essential knowledge
 
     The Developer plan <developer-plan>
     Divio project backups <project-backups>
+    Security on Divio <security-policy>
