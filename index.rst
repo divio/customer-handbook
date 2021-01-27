@@ -41,5 +41,5 @@ Essential knowledge
 
     The Developer plan <developer-plan>
     Divio project backups <project-backups>
-    Security on Divio <security-policy>
     RAM and Storage Policy <ram-storage-policy>
+    Security <security-policy>
