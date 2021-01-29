@@ -10,7 +10,6 @@ features and capabilities.
 To make it as useful as possible, the Developer plan includes a rich set of features. This includes serving the project
 using your own domain(s). No time-limit is applied to Developer plan subscriptions.
 
-
 Developer plan limitations
 --------------------------
 
