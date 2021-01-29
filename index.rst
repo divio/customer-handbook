@@ -30,6 +30,7 @@ Manage your projects
 
     Delete a project <delete-project>
     Use our backup system <backup-project>
+    Duplicate a project <copy-project>
 
 ..  rst-class:: column
 
@@ -43,3 +44,4 @@ Essential knowledge
     Divio project backups <project-backups>
     Resource usage policies <resource-usage-policies>
     Security <security-policy>
+    Duplicating projects <project-duplication>
