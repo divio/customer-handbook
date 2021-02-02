@@ -6,10 +6,10 @@ How to delete a project
 
 .. warning::
 
-   Deleting a project is an *irreversible* action. Your project and all related data will be deleted.
+   Deleting a project is an *irreversible* action. Your project and all related
+   data will be deleted.
 
-To delete a project, select *Delete* from the project's options menu, in the organisation view:
-
+ß
 .. image:: /images/options-menu-organisations-view.png
    :alt: 'options menu'
    :width: 685

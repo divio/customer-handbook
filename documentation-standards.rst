@@ -46,16 +46,19 @@ Examples:
 Noting references
 -----------------
 
-External resources link to this documentation. Any link to a documentation reference must be noted with information
+External resources link to this documentation. Any link to a documentation
+reference must be noted with information
 about the external resource, e.g.::
 
   ..  Do not change this reference! [or document name]
-      Referred to by: tutorial message 51 project-create-base-project
-      Where: in the project creation dialog e.g. https://control.divio.com/control/project/create/#step-1
-      As: https://docs.divio.com/en/latest/background/project-creation-options#project-creation-platform
+      Referred to by: tutorial message 51 project-create-base-project Where: in
+      the project creation dialog e.g.
+      https://control.divio.com/control/project/create/#step-1 As:
+      https://docs.divio.com/en/latest/background/project-creation-options#project-creation-platform
 
   .. _project-creation-platform:
 
-External links to documentation references should use the reference (as above) rather than the heading to which it is
-attached (in this case https://docs.divio.com/en/latest/background/project-creation-options#platform). This allows
-changing headings without the risk of breaking links.
+External links to documentation references should use the reference (as above)
+rather than the heading to which it is attached (in this case
+https://docs.divio.com/en/latest/background/project-creation-options#platform).
+This allows changing headings without the risk of breaking links.
