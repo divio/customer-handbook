@@ -28,6 +28,7 @@ Manage your projects
 .. toctree::
     :maxdepth: 1
 
+    Duplicate a project <duplicate-project>
     Delete a project <delete-project>
     Use our backup system <backup-project>
 
@@ -40,6 +41,7 @@ Essential knowledge
     :maxdepth: 1
 
     The Developer plan <developer-plan>
-    Divio project backups <project-backups>
     Resource usage policies <resource-usage-policies>
     Security <security-policy>
+    Duplicating projects <project-duplication>
+    Divio project backups <project-backups>
