@@ -43,5 +43,4 @@ Essential knowledge
     The Developer plan <developer-plan>
     Resource usage policies <resource-usage-policies>
     Security <security-policy>
-    Duplicating projects <project-duplication>
     Divio project backups <project-backups>
