@@ -12,8 +12,8 @@ Our backup system is designed with pragmatic, real-world needs and concerns in m
 Backups on Divio are in accordance with two key principles.
 
 * Data integrity - the integrity of your data and content is paramount, and they must be kept safe.
-* Portability - your project belongs to you. Your data and content must be as portable as possible,so that you can sign
-up to our services confident that you will never find yourself locked in to them.
+* Portability - your project belongs to you. Your data and content must be as portable as possible, so that you can sign
+  up to our services confident that you will never find yourself locked in to them.
 
 
 What’s backed up?
@@ -60,9 +60,9 @@ Various policies are available but in all environments this is set by default to
 
 * Each day, the system will take a backup, and discard any daily backups older than seven days.
 * Each week, it will relabel the oldest daily backup as a weekly backup and discard any weekly backups older than one
-month.
+  month.
 * Each month, it will relabel the oldest weekly backup as a monthly backup and discard any monthly backups older than
-one year.
+  one year.
 
 
 After a year, the system will have retained:

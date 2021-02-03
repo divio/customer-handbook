@@ -91,8 +91,8 @@ Security options for Divio users
 
 We’re able to add further protection for our users for their projects. For example, we offer:
 
-* free SSL certificates to all customers and HTTPS by default 
-* offer security patches and layers, proactively, in response to significant CVEs 
+* free SSL certificates to all customers and HTTPS by default
+* offer security patches and layers, proactively, in response to significant CVEs
 * CloudFlare DDoS protection
 
 amongst other benefits.
