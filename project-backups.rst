@@ -12,8 +12,8 @@ Our backup system is designed with pragmatic, real-world needs and concerns in m
 Backups on Divio are in accordance with two key principles.
 
 * Data integrity - the integrity of your data and content is paramount, and they must be kept safe.
-* Portability - your project belongs to you. Your data and content must be as portable as possible,
-  so that you can sign up to our services confident that you will never find yourself locked in to them.
+* Portability - your project belongs to you. Your data and content must be as portable as possible,so that you can sign
+up to our services confident that you will never find yourself locked in to them.
 
 
 What’s backed up?
@@ -22,7 +22,8 @@ What’s backed up?
 Our backup system takes care of your project’s:
 
 * database - the database that Django uses for persistent storage, made available for download as a binary database dump
-* media files - files uploaded/processed/stored by the project’s applications, made available for download as a tarred archive, and including a manifest file of contents
+* media files - files uploaded/processed/stored by the project’s applications, made available for download as a tarred
+archive, and including a manifest file of contents
 
 Your backups are made to encrypted storage.
 
@@ -46,9 +47,9 @@ Retention policies
 On-demand backups
 ^^^^^^^^^^^^^^^^^
 
-Various policies are available, but in all environments this is set by default to a 30 days/3 backups policy,
-meaning that these backups will be retained indefinitely; however, of those that are more than 30 days old,
-only the three most recent will be retained.
+Various policies are available, but in all environments this is set by default to a 30 days/3 backups policy, meaning
+that these backups will be retained indefinitely; however, of those that are more than 30 days old, only the three most
+recent will be retained.
 
 
 Scheduled backups
@@ -59,9 +60,10 @@ Various policies are available but in all environments this is set by default to
 
 * Each day, the system will take a backup, and discard any daily backups older than seven days.
 * Each week, it will relabel the oldest daily backup as a weekly backup and discard any weekly backups older than one
-  month.
+month.
 * Each month, it will relabel the oldest weekly backup as a monthly backup and discard any monthly backups older than
-  one year.
+one year.
+
 
 After a year, the system will have retained:
 

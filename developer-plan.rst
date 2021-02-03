@@ -3,9 +3,9 @@
 The Developer plan
 ===================
 
-You can create a free Developer subscription for any Divio project. The Developer plan is ideal for working on a
-project until you are ready to go live under a paid subscription, and exploring the platform and discovering its
-features and capabilities.
+You can create a free Developer subscription for any Divio project. The Developer plan is ideal for working on a project
+until you are ready to go live under a paid subscription, and exploring the platform and discovering its features and
+capabilities.
 
 To make it as useful as possible, the Developer plan includes a rich set of features. This includes serving the project
 using your own domain(s). No time-limit is applied to Developer plan subscriptions.

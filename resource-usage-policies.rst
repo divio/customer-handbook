@@ -25,5 +25,5 @@ CDN and transfer volume calculations
 Divio projects automatically use CDN (content delivery networks) to optimise delivery of files from our site to your
 users.
 
-Your project's transfer volume will be calculated only on the traffic that we serve to the CDN -
-not the traffic that the CDN serves to your users.
+Your project's transfer volume will be calculated only on the traffic that we serve to the CDN - not the traffic that
+the CDN serves to your users.
