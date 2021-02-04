@@ -12,14 +12,6 @@ This document provides an outline of the security policies and standards we adhe
     security of our platform or our customers's websites.
 
 
-This document is divided into three sections, covering:
-
-Technology
-
-Policies
-
-Standards
-
 Technology
 ----------
 
