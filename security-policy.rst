@@ -7,15 +7,17 @@ This document provides an outline of the security policies and standards we adhe
 
 ..  note::
 
-    This document does not describe all details. Some information will only be shared
-    with other parties on the basis of a non-disclosure agreement, and we reserve the right to not to share
-    any information that could compromise the security of our platform or our customers's websites.
+    This document does not describe all details. Some information will only be shared with other parties on the basis of
+    a non-disclosure agreement, and we reserve the right to not to share any information that could compromise the
+    security of our platform or our customers's websites.
 
 
 This document is divided into three sections, covering:
 
 Technology
+
 Policies
+
 Standards
 
 Technology
@@ -38,8 +40,8 @@ Django inherits Python’s advantages and builds on them. Over the years it has 
 for very high security standards, thanks to the quality of its codebase and the policies it has adopted.
 
 Django provides robust security out-of-the box. Core components and tools such as its authorisation framework,
-permissions framework and templating language have been tried, tested, hardened and improved, on a vast scale, over
-many years.
+permissions framework and templating language have been tried, tested, hardened and improved, on a vast scale, over many
+years.
 
 Django also configures security into its projects by default, and encourages good security by making it easier to do
 things the secure way.
@@ -102,8 +104,8 @@ Containerisation
 Divio uses Docker-based containerisation for deployment, which contributes extra layers of security to our
 infrastructure.
 
-Containerisation isolates running instances from each other. A vulnerability or even a breach affecting one site
-remains isolated to that particular instance.
+Containerisation isolates running instances from each other. A vulnerability or even a breach affecting one site remains
+isolated to that particular instance.
 
 Our containerised architecture makes it very easy to apply important software patches and updates. Fresh containers can
 be deployed to replace ones running outdated software without missing a beat, and we can apply updates - even major
@@ -132,7 +134,6 @@ We adopt industry best-practices for security both in our own infrastructure and
 We use well-tested security libraries and do not create our own. We never bypass built-in protections offered by our
 technology stack, and make full use of them.
 
-
 Staff security policy
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -145,7 +146,8 @@ Some details of our staff security policy can be supplied on application, under 
 Incident response plan
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Divio maintains a formal Incident response plan, governing incidents are recorded, escalated, dealt with and followed-up.
+Divio maintains a formal Incident response plan, governing incidents are recorded, escalated, dealt with and
+followed-up.
 
 
 Security report handling
@@ -161,7 +163,8 @@ Security testing
 We regularly run security tests against our own software and infrastructure. This includes penetration tests run by
 expert third-party security organisations.
 
-Some details of our testing regime and its results can be supplied on application, under the terms of a non-disclosure agreement.
+Some details of our testing regime and its results can be supplied on application, under the terms of a non-disclosure
+agreement.
 
 
 Standards
@@ -177,4 +180,5 @@ Divio is working together with an external audit firm towards `ISAE 3000
 GDPR
 ^^^^^
 
-We are in compliance with the `European Union's General Data Protection Regulation <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679>`_.
+We are in compliance with the `European Union's General Data Protection Regulation
+<https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679>`_.

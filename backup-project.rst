@@ -9,8 +9,8 @@ How to use our backup system
 
 The *Backups* view of your project shows the Scheduled and On-demand backups that have been created.
 
-The list of backups shows what was backed up and when, with additional information and options to
-restore or download the backup, or create new backups on-demand.
+The list of backups shows what was backed up and when, with additional information and options to restore or download
+the backup, or create new backups on-demand.
 
 
 How to create backups
@@ -31,8 +31,7 @@ To create a backup, from the *Backups* view of your project,
 How to work with existing backups
 ---------------------------------
 
-Select a particular backup to view more detailed information about it.
-More importantly, each backup has
+Select a particular backup to view more detailed information about it. More importantly, each backup has
 
 * a *Restore* option
 * an *options menu*, for further actions, such as *Prepare download*.
@@ -41,21 +40,21 @@ More importantly, each backup has
 The Restore option
 ^^^^^^^^^^^^^^^^^^
 
-The Restore functionality gives you flexibility. You can choose what to restore
-(database or media) and its destination (project and environment).
+The Restore functionality gives you flexibility. You can choose what to restore (database or media) and its destination
+(project and environment).
 
 ..  warning::
 
-    A restore operation will overwrite content at the destination.
-    Take a backup before restoring unless you are sure you will no longer need that content.
+    A restore operation will overwrite content at the destination. Take a backup before restoring unless you are sure
+    you will no longer need that content.
 
 
 The Download option
 ^^^^^^^^^^^^^^^^^^^
 
-To download a backup to your own computer, select *Prepare download* from the action menu and
-choose the content you want to download. The files will be prepared asynchronously, and
-an email message containing links to the database and/or media files will be sent to you when they are ready.
+To download a backup to your own computer, select *Prepare download* from the action menu and choose the content you
+want to download. The files will be prepared asynchronously, and an email message containing links to the database
+and/or media files will be sent to you when they are ready.
 
 The database will be made available in the form of a database dump
 

@@ -12,6 +12,5 @@ and paste the key.
 If you need to create an SSH key
 -------------------------------------
 
-If you haven’t already done so, you will need to create an SSH key. We recommend `GitHub's excellent guides on
-checking and generating SSH keys
-<https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>`_.
+If you haven’t already done so, you will need to create an SSH key. We recommend `GitHub's excellent guides on checking
+and generating SSH keys <https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>`_.
