@@ -15,7 +15,7 @@ subscription, your service won't be interrupted.
 * RAM: we build in headroom above the advertised container allocation
 * transfer, media and database storage: we do not enforce hard limits
 
-If your project consistently consumes more than your plan, we'll get in touch to ask you to uograde your plan
+If your project consistently consumes more than your plan, we'll get in touch to ask you to upgrade your plan
 appropriately.
 
 
