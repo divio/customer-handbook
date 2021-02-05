@@ -38,7 +38,7 @@ Select a particular backup to view more detailed information about it. More impo
 
 
 The Restore option
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 The Restore functionality gives you flexibility. You can choose what to restore (database or media) and its destination
 (project and environment).
@@ -50,7 +50,7 @@ The Restore functionality gives you flexibility. You can choose what to restore 
 
 
 The Download option
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 To download a backup to your own computer, select *Prepare download* from the action menu and choose the content you
 want to download. The files will be prepared asynchronously, and an email message containing links to the database

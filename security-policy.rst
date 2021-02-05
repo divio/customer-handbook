@@ -19,14 +19,14 @@ Divio is built using `Django <https://www.djangoproject.com/>`_, the `Python <ht
 application framework.
 
 Python
-^^^^^^
+~~~~~~
 
 Python is a language with strict security standards and policies. Python and modules in its standard libraries are
 subject to very close scrutiny. Vulnerabilities are rare and dealt with promptly.
 
 
 Django
-^^^^^^
+~~~~~~
 
 Django inherits Python’s advantages and builds on them. Over the years it has earned a particularly strong reputation
 for very high security standards, thanks to the quality of its codebase and the policies it has adopted.
@@ -40,7 +40,7 @@ things the secure way.
 
 
 Pre-public Django security patches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As a trusted, large-scale host of Django projects, we receive advance notification from the Django Project about
 security releases, which means that we are able to have security patches in place before vulnerabilities are made
@@ -48,7 +48,7 @@ public.
 
 
 Divio architecture
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 A project's web application containers and database are not directly accessible outside our network.
 
@@ -61,7 +61,7 @@ All connections are encrypted, even within our architecture.
 
 
 Divio security monitoring
-^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We monitor and log activity within and into our systems, and use automated systems to alert our infrastructure team to
 unusual traffic or behaviour.
@@ -70,7 +70,7 @@ Details of these systems are not disclosed to other parties.
 
 
 Third-party services
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~
 
 Divio makes use of known services, such as the well-protected AWS and MS Azure stacks, that enjoy an international
 reputation for robustness.
@@ -79,7 +79,7 @@ Details of other providers can be supplied on application, under the terms of a 
 
 
 Security options for Divio users
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We’re able to add further protection for our users for their projects. For example, we offer:
 
@@ -91,7 +91,7 @@ amongst other benefits.
 
 
 Containerisation
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Divio uses Docker-based containerisation for deployment, which contributes extra layers of security to our
 infrastructure.
@@ -110,7 +110,7 @@ applications will never be tied down to a compromised infrastructure.
 
 
 Backups
-^^^^^^^
+~~~~~~~
 
 Backups are executed automatically as well as on-demand, stored separately and encrypted.
 
@@ -119,7 +119,7 @@ Policies
 --------
 
 General code security and integrity
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We adopt industry best-practices for security both in our own infrastructure and the projects we host for our users.
 
@@ -127,7 +127,7 @@ We use well-tested security libraries and do not create our own. We never bypass
 technology stack, and make full use of them.
 
 Staff security policy
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 Divio maintains a formal internal security policy, with which all staff are familiar. This covers such fundamental
 topics as multi-factor authorisation, reporting, recording, online accounts, handling of physical devices and so on.
@@ -136,21 +136,21 @@ Some details of our staff security policy can be supplied on application, under 
 
 
 Incident response plan
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 Divio maintains a formal Incident response plan, governing incidents are recorded, escalated, dealt with and
 followed-up.
 
 
 Security report handling
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 We have a dedicated security team, and encourage responsible reporting by providing dedicated and clearly advertised
 security contact details. We take all reports seriously and respond to them promptly.
 
 
 Security testing
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 We regularly run security tests against our own software and infrastructure. This includes penetration tests run by
 expert third-party security organisations.
@@ -163,14 +163,15 @@ Standards
 ---------
 
 `IAASB <https://www.iaasb.org/>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Divio is working together with an external audit firm towards `ISAE 3000
 <https://www.loginradius.com/compliance-list/isae-3000/>`_/ `ISAE 3402
 <https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf>`_ controls reports.
 
 
 GDPR
-^^^^^
+~~~~
 
 We are in compliance with the `European Union's General Data Protection Regulation
 <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679>`_.

@@ -45,7 +45,7 @@ Retention policies
 ------------------
 
 On-demand backups
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Various policies are available, but in all environments this is set by default to a 30 days/3 backups policy, meaning
 that these backups will be retained indefinitely; however, of those that are more than 30 days old, only the three most
@@ -53,7 +53,7 @@ recent will be retained.
 
 
 Scheduled backups
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Various policies are available but in all environments this is set by default to a 7-daily/4-weekly/12-monthly
 *grandfather-father-son* policy. This means that:
