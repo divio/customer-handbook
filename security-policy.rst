@@ -40,7 +40,7 @@ things the secure way.
 
 
 Pre-public Django security patches
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As a trusted, large-scale host of Django projects, we receive advance notification from the Django Project about
 security releases, which means that we are able to have security patches in place before vulnerabilities are made
