@@ -48,7 +48,7 @@ Plans and subscriptions
     Resource usage policies <resource-usage-policies>
 
 
-Plans and subscriptions
+Projects
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
