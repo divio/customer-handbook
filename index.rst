@@ -55,6 +55,7 @@ Projects
     :maxdepth: 1
 
     Divio project backups <project-backups>
+    Zero-downtime deployment <zero-downtime>
 
 
 Policies
