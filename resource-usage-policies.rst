@@ -1,10 +1,10 @@
 .. _resource-usage-policies:
 
 Resource usage policies
-=========================================================================
+=======================
 
 Soft limits
-------------------
+-----------
 
 We recognise that web applications can receive unexpected surges in traffic, and can sometimes exceed their
 subscription's RAM, transfer or storage limits.
