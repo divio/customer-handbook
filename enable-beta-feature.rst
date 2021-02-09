@@ -1,4 +1,4 @@
-.. _enable-beta-feature:
+.. _how-to-enable-beta-feature:
 
 How to enable access to Beta features
 =====================================

@@ -1,4 +1,4 @@
-.. _resource-usage-policies:
+.. _knowledge-resource-usage-policies:
 
 Resource usage policies
 =========================================================================

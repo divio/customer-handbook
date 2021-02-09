@@ -1,3 +1,5 @@
+.. _how-to-upload-ssh-public-key:
+
 How to upload your SSH public key to Divio
 ==========================================
 

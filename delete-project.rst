@@ -1,4 +1,4 @@
-.. _delete-project:
+.. _how-to-delete-project:
 
 How to delete a project
 =======================

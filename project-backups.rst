@@ -1,11 +1,11 @@
-.. _project-backups:
+.. _knowledge-project-backups:
 
 Divio project backups
 =====================
 
 ..  seealso::
 
-    :ref:`How to backup your projects <backup-project>`.
+    :ref:`How to backup your projects <how-to-backup-project>`.
 
 Our backup system is designed with pragmatic, real-world needs and concerns in mind.
 

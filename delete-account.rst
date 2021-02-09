@@ -1,4 +1,4 @@
-.. _delete-account:
+.. _how-to-delete-account:
 
 How to delete your account
 ==========================

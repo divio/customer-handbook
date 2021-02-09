@@ -1,4 +1,4 @@
-.. _security-policy:
+.. _knowledge-security-policy:
 
 Security
 =================
