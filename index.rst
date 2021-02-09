@@ -21,6 +21,7 @@ Manage your account
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
 
+
 Manage your projects
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -31,15 +32,35 @@ Manage your projects
     Delete a project <delete-project>
     Use our backup system <backup-project>
 
+
 ..  rst-class:: column
 
 Essential knowledge
 -------------------
+
+Plans and subscriptions
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
     :maxdepth: 1
 
     The Developer plan <developer-plan>
     Resource usage policies <resource-usage-policies>
-    Security <security-policy>
+
+
+Plans and subscriptions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+    :maxdepth: 1
+
     Divio project backups <project-backups>
+
+
+Policies
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+    :maxdepth: 1
+
+    Security <security-policy>
