@@ -1,21 +1,16 @@
 .. _knowledge-zero-downtime:
 
-Zero-downtime deployment system 
+Zero-downtime deployment system
 ===============================
 
 Divio allows you to deploy a new version of your site without interrupting service.
 
-When you hit Deploy, our platform builds a new image for your site, complete with all its dependencies, running through
-the processes until it's ready to begin serving content. 
+When a project environment is deployed with new code, the site will switch from the old deployed version to the new
+one without skipping a beat. There is no downtime required while a build takes place. As soon as the newly deployed
+containers are available to serve the site, they will take over the application-serving duties.
 
-During this process, the version of the site that is already running will not be touched. If for example the deployment
-fails, the existing version will continue running as though nothing had even happened. 
+Each deployment includes multiple self-tests and health-checks, all of which must pass in order for the deployment to
+be declared successful. Only then will the new deployment be put into production. If any test fails, the deployment
+will fail, but the site will keep running as if nothing had changed.
 
-If there are data migrations to apply, those will be run before the new version of the application begins serving
-content. During this period, which usually lasts a few seconds, the old version of the application may be running with
-the new version of the database schema. During those few seconds, if a user happens to request content that is affected
-by the changes in the database, there is a chance that they may briefly see an error on the site.
-
-If the new version has no data migrations to apply, it will be ready to serve content immediately. The new instances
-will be added to the loadbalancer, the old ones will be removed, and the newly-deployed version will be live and
-running seamlessly.
+This allows us to provide zero-downtime deployments - even in cases of *error or failure*.
