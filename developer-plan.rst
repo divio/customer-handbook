@@ -1,4 +1,4 @@
-.. _developer-plan:
+.. _knowledge-developer-plan:
 
 The Developer plan
 ===================

@@ -1,11 +1,11 @@
-.. _backup-project:
+.. _how-to-backup-project:
 
 How to use our backup system
 ============================
 
 ..  seealso::
 
-    :ref:`Divio backup system <project-backups>`
+    :ref:`Divio backup system <knowledge-project-backups>`
 
 The *Backups* view of your project shows the Scheduled and On-demand backups that have been created.
 
