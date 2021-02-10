@@ -13,11 +13,11 @@ project cannot be transferred while it has a subscription applied.
     If you don't want to interrupt the subscription, please contact Divio support and we can transfer the project
     without any downtime for you.
 
-Once the subscription has been cancelled, open the options menu in the project's dashboard and select Transfer. 
+Once the subscription has been cancelled, select *Transfer* from the project's options menu, in the organisation view:
 
-.. image:: /images/options-menu-project-view.png
+.. image:: /images/options-menu-organisations-view.png
    :alt: 'options menu'
-   :width: 690
+   :width: 685
    
 or in the project view:
 
