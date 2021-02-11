@@ -16,6 +16,7 @@ Get Started
 .. toctree::
     :maxdepth: 1
 
+    Get started <get-started>
     Get help and support <help-support>
 
 
