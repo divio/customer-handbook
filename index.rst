@@ -47,6 +47,14 @@ Manage your projects
 Essential knowledge
 -------------------
 
+General
+~~~~~~~~
+
+.. toctree::
+    :maxdepth: 1
+
+    infrastructure
+
 
 Plans and subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~
