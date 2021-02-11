@@ -5,11 +5,19 @@
 Divio user handbook
 ====================
 
-
 ..  rst-class:: column
 
 How to
 ------
+
+Get Started
+~~~~~~~~~~~
+
+.. toctree::
+    :maxdepth: 1
+
+    Get help and support <help-support>
+
 
 Manage your account
 ~~~~~~~~~~~~~~~~~~~
@@ -39,6 +47,7 @@ Manage your projects
 Essential knowledge
 -------------------
 
+
 Plans and subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -66,3 +75,5 @@ Policies
     :maxdepth: 1
 
     Security <security-policy>
+
+
