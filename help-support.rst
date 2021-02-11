@@ -44,8 +44,7 @@ Useful resources include:
 Divio customers
 ^^^^^^^^^^^^^^^^^^^
 
-* You can `join the Divio Community slack channel
-<https://join.slack.com/t/divio-community/shared_invite/zt-k5h56uqa-fPxLJq5vQx2OQ9xTiSJnoQ#/>`_.
+* You can `join the Divio Community slack channel <https://join.slack.com/t/divio-community/shared_invite/zt-k5h56uqa-fPxLJq5vQx2OQ9xTiSJnoQ#/>`_.
 
 Divio Django users
 ^^^^^^^^^^^^^^^^^^^
