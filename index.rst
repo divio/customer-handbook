@@ -54,6 +54,7 @@ General
     :maxdepth: 1
 
     infrastructure
+    addons
 
 
 Plans and subscriptions
