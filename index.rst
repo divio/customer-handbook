@@ -38,6 +38,7 @@ Manage your projects
 
     Duplicate a project <duplicate-project>
     Delete a project <delete-project>
+    Add a collaborator <add-collaborator>
     Transfer a project to another organisation <transfer-organisation>
     Use our backup system <backup-project>
 
