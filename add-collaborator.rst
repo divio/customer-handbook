@@ -28,7 +28,7 @@ you use to invite a collaborator must match their account email address.
 
 Until the account is confirmed by your collaborator, you will see a *pending*  status attached to the new user.
 
-Your new collaborator is now a member of the organisation. 
+Once the account is confirmed, your new collaborator is a member of the organisation. 
 
 
 Add a collaborator to a project
@@ -36,15 +36,15 @@ Add a collaborator to a project
 
 A collaborator to be added to a project must be a member of the organisation the project belongs to. 
 
-In the project's Dashboard, select *collaborators* and add a collaborator from the list of collaborators in the
-organisation to the project.
+In the project's Dashboard, select *collaborators* and click on the field under the *add available collaborators to this
+project*, choose the email of the collaborator and hit *add collaborators*.
 
 
 Remove collaborators
 --------------------
 
-To remove a collaborator from an organisation, in the organisation settings, select collaborators, and click the options
-menu for a particular collaborator and select *remove*.
+To remove a collaborator from an organisation, in the organisation settings, select collaborators, and click on the
+options menu for a particular collaborator and select *remove*.
 
-To remove a collaborator from a project, in the project's Dashboard, select *collaborators*, and click the options menu
-for a particular collaborator and select *remove*.
+To revoke access of a collaborator from a project, in the project's Dashboard, select *collaborators*, and hit the
+*delete icon* for a particular collaborator.
