@@ -24,7 +24,8 @@ Manage your account
 
 .. toctree::
     :maxdepth: 1
-
+    
+    Retrieve your invoices <retrieve-invoice>
     Upload your SSH public key <setup-ssh-key>
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
