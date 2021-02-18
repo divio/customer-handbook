@@ -25,6 +25,7 @@ Manage your account
 .. toctree::
     :maxdepth: 1
 
+    Update billing and credit card information <update-billing>
     Upload your SSH public key <setup-ssh-key>
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
