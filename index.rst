@@ -28,6 +28,7 @@ Manage your account
     Upload your SSH public key <setup-ssh-key>
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
+    Rename an organisation <rename-organisation>
 
 
 Manage your projects
