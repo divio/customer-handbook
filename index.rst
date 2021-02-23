@@ -55,6 +55,7 @@ General
 
     infrastructure
     addons
+    aldryn
 
 
 Plans and subscriptions
