@@ -66,6 +66,7 @@ Plans and subscriptions
 
     The Developer plan <developer-plan>
     Resource usage policies <resource-usage-policies>
+    Invoice-based billing <invoice-based-billing>
 
 
 Projects
