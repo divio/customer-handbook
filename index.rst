@@ -24,11 +24,12 @@ Manage your account
 
 .. toctree::
     :maxdepth: 1
-
-    Update billing and credit card information <update-billing>
+    Update billing and credit card information <update-billing>    
+    Retrieve your invoices <retrieve-invoice>
     Upload your SSH public key <setup-ssh-key>
     Enable Beta features <enable-beta-feature>
     Delete your account <delete-account>
+    Rename an organisation <rename-organisation>
 
 
 Manage your projects
@@ -56,6 +57,7 @@ General
 
     infrastructure
     addons
+    aldryn
 
 
 Plans and subscriptions
@@ -66,6 +68,7 @@ Plans and subscriptions
 
     The Developer plan <developer-plan>
     Resource usage policies <resource-usage-policies>
+    Invoice-based billing <invoice-based-billing>
 
 
 Projects
@@ -76,6 +79,7 @@ Projects
 
     Divio project backups <project-backups>
     Zero-downtime deployment <zero-downtime>
+    Multi-site applications <multi-site>
 
 
 Policies
