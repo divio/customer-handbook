@@ -57,6 +57,7 @@ General
     :maxdepth: 1
 
     infrastructure
+    leaving-divio
     addons
     aldryn
 
