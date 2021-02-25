@@ -54,7 +54,7 @@ General
     :maxdepth: 1
 
     infrastructure
-    move-off-divio
+    leaving-divio
     addons
 
 

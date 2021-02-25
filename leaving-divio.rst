@@ -1,4 +1,4 @@
-Moving off Divio 
+Leaving Divio 
 ================
 
 As much as we want to host your projects, we want you to stay with us because you want to, not because you can't leave.
