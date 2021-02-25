@@ -24,7 +24,7 @@ Manage your account
 
 .. toctree::
     :maxdepth: 1
-    
+    Update billing and credit card information <update-billing>    
     Retrieve your invoices <retrieve-invoice>
     Upload your SSH public key <setup-ssh-key>
     Enable Beta features <enable-beta-feature>
