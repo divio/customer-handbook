@@ -4,7 +4,7 @@ How to add and manage collaborators
 ====================================
 
 Divio allows you to manage projects and collaborators using organisations. An organisation is free to create, and you
-may add and manage developers, even customers with varying access levels, as collaborators as many as you need.
+may add and manage developers and even customers with varying access levels, as collaborators as many as you need.
 
 Collaborator types
 ------------------
