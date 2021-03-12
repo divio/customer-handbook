@@ -3,7 +3,7 @@
 How to clear the Cloudflare CDN cache
 =====================================
 
-If your project uses Cloudflare CDN caching, you can clear it as required via our Control Panel. 
+If your project uses Cloudflare CDN caching, you can clear it as required via our control panel. 
 
 .. note:: 
 
@@ -14,4 +14,4 @@ If your project uses Cloudflare CDN caching, you can clear it as required via ou
 
 To clear the cache for a domain on your project, go to its *Domains* view and *select* the domain for which you need to clear the cache. 
 
-The cache will be cleared within a few minutes, and you will see a success message in the Dashboard.
+The cache will be cleared within a few minutes, and you will see a success message in the dashboard.
