@@ -11,4 +11,6 @@ Our partners can be found on almost every continent. They have a vast range of w
 in project implementation on the Divio.
 
 Whatever your requirements, the partnership network has the skills and experience to help you accomplish your aims on
-the web. Find a partner `here <https://www.divio.com/company/partners/>`_.
+the web. 
+
+Find a Divio partner for your project `here <https://www.divio.com/company/partners/>`_.
