@@ -17,7 +17,7 @@ You might want to duplicate a project for a number of reasons, for example:
 Select your duplication option
 ------------------------------
 
-To delete a project, select *Duplicate* from the project's options menu, in the organisation view:
+To duplicate a project, select *Duplicate* from the project's options menu, in the organisation view:
 
 .. image:: /images/options-menu-organisations-view.png
    :alt: 'options menu'
