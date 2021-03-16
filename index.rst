@@ -45,6 +45,7 @@ Manage your projects
     Rename a project <rename-project>
     Transfer a project to another organisation <transfer-organisation>
     Use our backup system <backup-project>
+    Manage domains <manage-domains>
 
 
 ..  rst-class:: column
