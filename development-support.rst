@@ -13,4 +13,4 @@ in project implementation on the Divio.
 Whatever your requirements, the partnership network has the skills and experience to help you accomplish your aims on
 the web. 
 
-Find a Divio partner for your project `here <https://www.divio.com/company/partners/>`_.
+`Find a Divio Partner <https://www.divio.com/company/partners/>`_.
