@@ -45,7 +45,7 @@ Manage your projects
     Rename a project <rename-project>
     Transfer a project to another organisation <transfer-organisation>
     Use our backup system <backup-project>
-    Clear Cloudflare CDN cache <clear-cloudflare-cache>
+    Manage domains <manage-domains>
 
 
 ..  rst-class:: column
