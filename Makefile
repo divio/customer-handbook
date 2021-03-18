@@ -8,7 +8,7 @@ SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = DivioUserhandbook
 SOURCEDIR     = .
 BUILDDIR      = _build
- 
+
 VENV = env/bin/activate
 PORT = 8001
 
@@ -18,7 +18,7 @@ help:
 
 install:
 	@echo "... setting up virtualenv"
-	python3.8 -m venv env
+	python3 -m venv env
 	. $(VENV); pip install --upgrade -r requirements.txt
 
 	@echo "\n" \
@@ -29,10 +29,10 @@ install:
       "enchant must be installed in order for pyenchant (and therefore \n" \
 	  "spelling checks) to work. \n" \
 	  "--------------------------------------------------------------- \n"
- 
+
 clean:
 	-rm -r $(BUILDDIR)/*
- 
+
 run:
 	. $(VENV); sphinx-autobuild $(ALLSPHINXOPTS) --ignore ".git/*" --ignore "*.scss" . -b dirhtml -a _build/html --host 0.0.0.0 --port $(PORT)
 
@@ -41,7 +41,7 @@ html:
 
 test:
 	. $(VENV); sphinx-build -b html . _build/html
- 
+
 spelling:
 	. $(VENV); $(SPHINXBUILD) -b spelling $(ALLSPHINXOPTS) . _build/spelling
 	@echo
@@ -56,9 +56,9 @@ linkcheck:
 
 quickstart:
 	. $(VENV); sphinx-quickstart
- 
+
 .PHONY: help install clean run Makefile
- 
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
