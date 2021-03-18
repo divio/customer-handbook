@@ -1,99 +1,93 @@
-.. Divio user handbook documentation master file, created by
-   sphinx-quickstart on Wed Jan 13 13:30:17 2021. You can adapt this file completely to your liking, but it should at
-   least contain the root `toctree` directive.
+:hide-toc:
 
-Divio user handbook
-====================
+Divio user support guides
+=========================
 
-..  rst-class:: column
+`Divio <https://divio.com>`_ is a cloud infrastructure management service, with a platform for containerised
+web application deployment.
 
-How to
-------
+These guides cover basic use of our platform. For technical documentation, see our **Divio Developer Handbook**.
 
-Get Started
-~~~~~~~~~~~
+..  raw:: html
 
-.. toctree::
-    :maxdepth: 1
-
-    Get help and support <help-support>
+    <p><a class="btn btn-primary btn-small" target="_blank"
+    href="https://docs.divio.com" role="button">Divio Developer Handbook</a></p>
 
 
-Manage your account
-~~~~~~~~~~~~~~~~~~~
+..  rst-class:: clearfix row custom-headings
 
-.. toctree::
-    :maxdepth: 1
-    
-    Update billing and credit card information <update-billing>    
-    Retrieve your invoices <retrieve-invoice>
-    Upload your SSH public key <setup-ssh-key>
-    Enable Beta features <enable-beta-feature>
-    Delete your account <delete-account>
-    Rename an organisation <rename-organisation>
-
-
-Manage your projects
-~~~~~~~~~~~~~~~~~~~~
-
-.. toctree::
-    :maxdepth: 1
-
-    Duplicate a project <duplicate-project>
-    Delete a project <delete-project>
-    Add a collaborator <add-collaborator>
-    Rename a project <rename-project>
-    Transfer a project to another organisation <transfer-organisation>
-    Use our backup system <backup-project>
-    Manage domains <manage-domains>
-
+==================
 
 ..  rst-class:: column
 
-Essential knowledge
+:ref:`how-to`
+---------------
+
+* :ref:`get-started`
+* :ref:`manage-your-account`
+
+  SSH keys • Beta features • Organisations
+* :ref:`manage-your-projects`
+
+  duplicating, transferring, deleting • using backups
+
+..  rst-class:: column
+
+:ref:`essential`
 -------------------
 
-General
-~~~~~~~~
+* :ref:`essential-general`
 
-.. toctree::
-    :maxdepth: 1
+  key terms and concepts
+* :ref:`essential-plans`
 
-    infrastructure
-    leaving-divio
-    addons
-    aldryn
+  the free Developer plan • billing
+* :ref:`essential-projects`
 
+  the backup system • deployment
+* :ref:`essential-policies`
 
-Plans and subscriptions
-~~~~~~~~~~~~~~~~~~~~~~~
+  security • resource usage
 
-.. toctree::
-    :maxdepth: 1
+..  rst-class:: clearfix
 
-    The Developer plan <developer-plan>
-    Resource usage policies <resource-usage-policies>
-    Invoice-based billing <invoice-based-billing>
+==================
 
+Additional resources
+-----------------------
 
-Projects
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. toctree::
-    :maxdepth: 1
-
-    Divio project backups <project-backups>
-    Zero-downtime deployment <zero-downtime>
-    Multi-site applications <multi-site>
-    Application development support <development-support>
+..  rst-class:: clearfix
 
 
-Policies
-~~~~~~~~~~~~~~~~~~~~~~~
+..  rst-class:: column
 
-.. toctree::
-    :maxdepth: 1
+Divio Community Slack
+~~~~~~~~~~~~~~~~~~~~~
 
-    Security <security-policy>
+The Divio Community Slack group is for all Divio users.
+
+..  raw:: html
+
+    <p><a class="btn btn-primary btn-small" target="_blank"
+    href="https://join.slack.com/t/divio-community/shared_invite/zt-k5h56uqa-fPxLJq5vQx2OQ9xTiSJnoQ" role="button">Join
+    us on Slack</a></p>
 
 
+..  rst-class:: column
+
+Speak to an expert
+~~~~~~~~~~~~~~~~~~
+
+Need to know more? Get answers from an expert. No obligations and no sales-pitches - just the facts.
+
+..  raw:: html
+
+    <p><a class="btn btn-primary btn-small" target="_blank"
+    href="https://calendly.com/daniele-procida/15min" role="button">Book a 15-minute call</a></p>
+
+..  toctree::
+    :hidden:
+    :maxdepth: 2
+
+    how-to/index
+    essential-knowledge/index
