@@ -3,6 +3,8 @@
 How-to guides
 -------------
 
+..  rst-class:: column
+
 .. _get-started:
 
 Get Started
@@ -13,6 +15,9 @@ Get Started
 
     Get help and support <help-support>
 
+
+..  rst-class:: clearfix
+..  rst-class:: column
 
 .. _manage-your-account:
 
@@ -29,6 +34,8 @@ Manage your account
     Delete your account <delete-account>
     Rename an organisation <rename-organisation>
 
+
+..  rst-class:: column
 
 .. _manage-your-projects:
 

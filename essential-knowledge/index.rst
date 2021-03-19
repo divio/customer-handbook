@@ -3,6 +3,8 @@
 Essential knowledge
 -------------------
 
+..  rst-class:: column
+
 .. _essential-general:
 
 General
@@ -15,11 +17,13 @@ General
     addons
     aldryn
     leaving-divio
-    
+
+
+..  rst-class:: column
 
 .. _essential-plans:
 
-Plans and subscriptions
+Plans and pricing
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
@@ -28,6 +32,9 @@ Plans and subscriptions
     The Developer plan <developer-plan>
     Invoice-based billing <invoice-based-billing>
 
+
+..  rst-class:: clearfix
+..  rst-class:: column
 
 .. _essential-projects:
 
@@ -41,6 +48,9 @@ Projects
     Zero-downtime deployment <zero-downtime>
     Multi-site applications <multi-site>
     Application development support <development-support>
+
+
+..  rst-class:: column
 
 .. _essential-policies:
 
