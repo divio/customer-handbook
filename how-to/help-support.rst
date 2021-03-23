@@ -21,6 +21,9 @@ To ensure that you receive our reply, please leave an email address if requested
 
 If you're not able to use the chat system, please contact us `by email <support@divio.com>`_.
 
+If you do not see the chat icon, please check that your web browser is not blocking access to it.
+
+
 Documentation
 ~~~~~~~~~~~~~
 
