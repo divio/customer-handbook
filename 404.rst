@@ -6,7 +6,14 @@
 
 Sorry, that page cannot be found.
 
-We've recently restructured some of our documentation. Try a text search for the information you need.
+We've recently restructured some of our documentation.
+
+..  raw:: html
+
+    <p><a class="btn btn-primary btn-small" target="_blank"
+    href="/" role="button">Divio user support guides home page</a></p>
+
+Or, try a text search for the information you need.
 
 These guides cover basic use of our platform. For technical documentation, see our **Divio Developer Handbook**.
 

@@ -1,5 +1,7 @@
 :hide-toc:
 
+.. _user-support-guides:
+
 Divio user support guides
 =========================
 
