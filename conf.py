@@ -44,6 +44,7 @@ extensions = [
     "sphinxcontrib.mermaid",
     "sphinx_inline_tabs",
     "sphinx_click",
+    "notfound.extension",
 ]
 
 if "spelling" in sys.argv:

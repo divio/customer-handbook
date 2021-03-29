@@ -1,0 +1,16 @@
+:hide-toc:
+:orphan:
+
+404 page not found
+=========================
+
+Sorry, that page cannot be found.
+
+We've recently restructured some of our documentation. Try a text search for the information you need.
+
+These guides cover basic use of our platform. For technical documentation, see our **Divio Developer Handbook**.
+
+..  raw:: html
+
+    <p><a class="btn btn-primary btn-small" target="_blank"
+    href="https://docs.divio.com" role="button">Divio Developer Handbook</a></p>
