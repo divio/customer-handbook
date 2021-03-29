@@ -135,3 +135,10 @@ man_pages = [
 todo_include_todos = False
 todo_link_only = True
 todo_emit_warnings = True
+
+
+
+#
+# -- Options for 404s --------------------------------------------------------
+#
+notfound_urls_prefix = None
