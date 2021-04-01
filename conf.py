@@ -25,7 +25,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General information about the project --------------------------------
 
-project = 'User Handbook'
+project = 'Divio user support guides'
 full_title = project + " Documentation"
 copyright = '2021, Divio'
 author = 'Mebrahtu Zemui Tesfazghi'
