@@ -51,4 +51,4 @@ Manage your projects
     Rename a project <rename-project>
     Transfer a project to another organisation <transfer-organisation>
     Use our backup system <backup-project>
-    Clear the Cloudflare cache <manage-domains>
+    Clear the Cloudflare cache <manage-cloudflare>

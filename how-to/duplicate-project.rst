@@ -14,6 +14,8 @@ You might want to duplicate a project for a number of reasons, for example:
 * to provide team members or clients with an exact copy of a project for training purposes
 
 
+.. _how-to-duplicate-project-options:
+
 Select your duplication option
 ------------------------------
 
