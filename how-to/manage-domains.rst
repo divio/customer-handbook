@@ -1,4 +1,4 @@
-.. _how-to-manage-domains:
+.. _how-to-manage-cloudflare-cache:
 
 How to clear the Cloudflare cache
 ==================================
