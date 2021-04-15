@@ -14,6 +14,7 @@ General
     :maxdepth: 1
 
     infrastructure
+    ssl-certificates
     addons
     aldryn
     leaving-divio
