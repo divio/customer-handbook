@@ -15,6 +15,7 @@ General
 
     infrastructure
     addons
+    ssl-certificates
     aldryn
     leaving-divio
 
