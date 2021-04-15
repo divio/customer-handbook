@@ -162,12 +162,12 @@ agreement.
 Standards
 ---------
 
-`IAASB <https://www.iaasb.org/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+We are implementing the ISAE 3402 assurance standard, that allows us to demonstrate good security practices are in
+place and operating effectively. ISAE 3402 is a newer mechanism for assurance, with wider scope, that evaluates
+practices in a real-world context.
 
-Divio is working together with an external audit firm towards `ISAE 3000
-<https://www.loginradius.com/compliance-list/isae-3000/>`_/ `ISAE 3402
-<https://www.ifac.org/system/files/downloads/b014-2010-iaasb-handbook-isae-3402.pdf>`_ controls reports.
+Our implementation of ISAE 3402 meets the requirements of clients with very strict demands in the banking sector that
+use the Divio platform.
 
 
 GDPR
