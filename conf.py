@@ -79,7 +79,7 @@ intersphinx_mapping = {
 html_theme = "furo"
 html_theme_options = {
     "show_cloud_banner": False,
-    "segment_id": "FT34iqltJg6YdIX5fcyIt5J035FmSAAq",
+    "segment_id": "t1YA2MTuDOiKyRFiYhGbkTtfGCrlHN4U",
     "style_external_links": True,
     "navigation_depth": 2,
 }
