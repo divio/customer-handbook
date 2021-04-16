@@ -32,6 +32,23 @@ Your backups are made to encrypted storage.
     Your project’s codebase is not captured in our backups, as it already versioned in Git.
 
 
+Where is it backed up?
+======================
+
+.. note::
+
+  The following description only applies to AWS storages. For example, on Azure we store on windows blob storage and not
+  on S3.
+
+Backups in AWS are stored in the same region as the project using AWS S3 `Standard-IA storage class
+<https://aws.amazon.com/s3/storage-classes/>`_. 
+
+This storage class stores data redundantly across multiple datacenters called `availability zones
+<https://aws.amazon.com/about-aws/global-infrastructure/regions_az/>`_ in the same region. Availability zones give
+customers the ability to operate production applications and databases that are highly available, fault tolerant,
+and scalable. All traffic between availability zones is encrypted. 
+
+
 Scheduled and on-demand backups
 -------------------------------
 
