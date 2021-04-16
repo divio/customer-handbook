@@ -25,31 +25,43 @@ These guides cover basic use of our platform. For technical documentation, see o
 :ref:`how-to`
 ---------------
 
-* :ref:`get-started`
+Includes...
+
+* :ref:`how-to-get-help-support`
 * :ref:`manage-your-account`
 
   SSH keys • Beta features • Organisations
+
 * :ref:`manage-your-projects`
 
   duplicating, transferring, deleting • using backups
+
+* ...and more
 
 ..  rst-class:: column
 
 :ref:`essential`
 -------------------
 
+Includes...
+
 * :ref:`essential-general`
 
   key terms and concepts
+
 * :ref:`essential-plans`
 
   the free Developer plan • billing
+
 * :ref:`essential-projects`
 
   the backup system • deployment
+
 * :ref:`essential-policies`
 
   security • resource usage
+
+* ...and more
 
 ..  rst-class:: clearfix
 
