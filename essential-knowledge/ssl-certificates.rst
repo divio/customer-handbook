@@ -33,5 +33,6 @@ such as http://example.com/ they will be redirected to https://example.com/.
 
 .. seealso:: How to set up HTTPS redirects in:
 
+  * :ref:`HTTP redirects <developer:redirects>`
   * :ref:`Aldryn Django projects <developer:django_protocol_redirects>`
   * :ref:`Express.js applications <developer:how-to-express-js-https>`
