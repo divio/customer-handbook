@@ -72,7 +72,6 @@ Additional resources
 
 ..  rst-class:: clearfix
 
-
 ..  rst-class:: column
 
 Divio Community Slack

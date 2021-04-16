@@ -48,6 +48,7 @@ Projects
     Divio project backups <project-backups>
     Zero-downtime deployment <zero-downtime>
     Multi-site applications <multi-site>
+    Mirrors <mirrors>
     Application development support <development-support>
 
 
