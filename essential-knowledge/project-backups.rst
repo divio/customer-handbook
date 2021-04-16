@@ -19,7 +19,7 @@ Backups on Divio are in accordance with two key principles.
 What’s backed up?
 -----------------
 
-Our backup system takes care of your project’s:
+Our backup system takes care of your applications’s:
 
 * database - the database that Django uses for persistent storage, made available for download as a binary database dump
 * media files - files uploaded/processed/stored by the project’s applications, made available for download as a tarred
@@ -29,24 +29,19 @@ Your backups are made to encrypted storage.
 
 ..  note::
 
-    Your project’s codebase is not captured in our backups, as it already versioned in Git.
+    Your applications’s codebase is not captured in our backups, as it already versioned in Git.
 
 
-Where is it backed up?
-======================
+Backup storage
+-----------------------
 
-.. note::
-
-  The following description only applies to AWS storages. For example, on Azure we store on windows blob storage and not
-  on S3.
-
-Backups in AWS are stored in the same region as the project using AWS S3 `Standard-IA storage class
-<https://aws.amazon.com/s3/storage-classes/>`_. 
+Backups in AWS-based regions are stored in the same region as the application using AWS S3 `Standard-IA storage class
+<https://aws.amazon.com/s3/storage-classes/>`_.
 
 This storage class stores data redundantly across multiple datacenters called `availability zones
 <https://aws.amazon.com/about-aws/global-infrastructure/regions_az/>`_ in the same region. Availability zones give
 customers the ability to operate production applications and databases that are highly available, fault tolerant,
-and scalable. All traffic between availability zones is encrypted. 
+and scalable. All traffic between availability zones is encrypted.
 
 
 Scheduled and on-demand backups
@@ -80,7 +75,6 @@ Various policies are available but in all environments this is set by default to
   month.
 * Each month, it will relabel the oldest weekly backup as a monthly backup and discard any monthly backups older than
   one year.
-
 
 After a year, the system will have retained:
 
