@@ -1,6 +1,6 @@
 .. _knowledge-ssl-certificates:
 
-SSL certificates and HTTPS on Divio projects
+SSL certificates and HTTPS
 =============================================
 
 
@@ -31,8 +31,8 @@ By default, we don't redirect HTTP users to HTTPS, because for some cases this m
 you have a good reason not to, we advise that you set this up for your site, so that when your visitors arrive on a url
 such as http://example.com/ they will be redirected to https://example.com/.
 
-.. seealso:: How to set up HTTPS redirects in:
+.. seealso:: HTTPS redirects in our Developer Handbook:
 
   * :ref:`HTTP redirects <developer:redirects>`
-  * :ref:`Aldryn Django projects <developer:django_protocol_redirects>`
-  * :ref:`Express.js applications <developer:how-to-express-js-https>`
+  * :ref:`in Aldryn Django application <developer:django_protocol_redirects>`
+  * :ref:`in Express.js applications <developer:how-to-express-js-https>`
