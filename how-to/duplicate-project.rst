@@ -47,8 +47,8 @@ A fork is a form of duplication in which the new project will be an exact but in
 will include the original’s code, database content, media, environment variables and all branches,  and retains the Git
 history in its codebase. 
 
-A fork is therefore a useful tool when you want to duplicate in order to undertake substantial new development, as it
-allows you to merge back changes from the duplicate into the original using Git.
+A fork is therefore useful when you want to undertake substantial new development, as it allows you to merge back
+changes from the duplicate into the original using Git.
 
 
 
