@@ -44,4 +44,4 @@ Community support channels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We encourage users to `join the Divio Community slack channel
-<https://join.slack.com/t/divio-community/shared_invite/zt-k5h56uqa-fPxLJq5vQx2OQ9xTiSJnoQ#/>`_.
+<https://slack.divio.com/>`_.
