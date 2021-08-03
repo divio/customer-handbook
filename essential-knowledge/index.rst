@@ -18,6 +18,7 @@ General
     addons
     aldryn
     leaving-divio
+    cp-permissions
 
 
 ..  rst-class:: column
