@@ -16,7 +16,6 @@ Control panel permissions reference
 The following table shows the different permission options for the different
 types of users with respect to addons, boilerplates and applications.
 
-Copyright |copy| 2003, BogusMegaCorp\ |trade|.
 
 Addons
 ------
@@ -30,7 +29,7 @@ Addons
     - Manage addon settings
     - Manage addon collaborators
     - Upload new addon version
-    - Install / upgrade to a project [#f1]_ 
+    - Install/upgrade to a project [#f1]_ 
     - Manage settings on a project [#f1]_ 
 
   * - Anyone
@@ -42,7 +41,7 @@ Addons
     - |check| Only for already installed addons
 
   * - Organisation collaborator
-    - |check| Added as collaborator with "can update"
+    - |check| Added as collaborator with "Can update"
     - |KHgr|
     - |KHgr|
     - |KHgr|
@@ -57,7 +56,7 @@ Addons
     - |check|
     - |check|
 
-  * - Addon collaborator with "can update"
+  * - Addon collaborator with "Can update"
     - n/a
     - |check|
     - |check|
@@ -93,14 +92,14 @@ Boilerplates
     - |KHgr|
     - |KHgr|
     - |KHgr|
-    - Only for public boilerplate
+    - Only for public boilerplates
 
   * - Organisation collaborator
-    - |check| Added as collaborator with "can update"
+    - |check| Added as collaborator with "Can update"
     - |KHgr|
     - |KHgr|
     - |KHgr|
-    - Only for public boilerplate
+    - Only for public boilerplates
 
   * - Boilerplate collaborator
     - n/a
@@ -109,7 +108,7 @@ Boilerplates
     - |KHgr|
     - |check|
 
-  * - Addon collaborator with "can update"
+  * - Boilerplate collaborator with "Can update"
     - n/a
     - |check|
     - |check|
