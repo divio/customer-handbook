@@ -1,69 +1,86 @@
 .. _knowledge-cp-permissions:
 
+
+.. # For the "X" mark
+
+.. include:: <isogrk1.txt> 
+
+
+.. # For the "Check" mark 
+
+.. include:: <isopub.txt> 
+
 Control panel permissions reference
-====================================
+===================================
 
 The following table shows the different permission options for the different
 types of users with respect to addons, boilerplates and applications.
 
+Copyright |copy| 2003, BogusMegaCorp\ |trade|.
 
-.. list-table:: Addons
-  :widths: 20 20 20 20 20 20 25
+Addons
+------
+
+.. list-table::
+  :widths: 20 30 20 20 20 25 30
   :header-rows: 1
- 
+
   * - User level
     - Create new addon
     - Manage addon settings
     - Manage addon collaborators
     - Upload new addon version
-    - Install/upgrade to a project [#f1]_ 
+    - Install / upgrade to a project [#f1]_ 
     - Manage settings on a project [#f1]_ 
 
   * - Anyone
-    -
-    -
-    -
-    - 
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
     - Only for public addons
-    - Only for already installed addons
+    - |check| Only for already installed addons
 
   * - Organisation collaborator
-    - Added as collaborator with "can update"
-    -
-    -
-    - 
+    - |check| Added as collaborator with "can update"
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
     - Only for public addons
-    - Only for already installed addons
+    - |check| Only for already installed addons
 
   * - Addon collaborator
     - n/a
-    -
-    -
-    -
-    -
-    - 
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
+    - |check|
+    - |check|
 
   * - Addon collaborator with "can update"
     - n/a
-    -
-    - (can also remove themselves?)
-    -
-    -
-    - 
+    - |check|
+    - |check|
+    - |check|
+    - |check|
+    - |check|
+
   * - Organisation owner/admin
-    - 
-    -
-    -
-    -
-    - 
-    - 
+    - |check|
+    - |check|
+    - |check|
+    - |check|
+    - |check|
+    - |check|
 
 
+Boilerplates
+------------
 
-.. list-table:: Boilerplates
+.. list-table::
   :widths: 20 20 20 20 20 25
   :header-rows: 1
- 
+
   * - User level
     - Create new boilerplate
     - Manage boilerplate settings
@@ -72,152 +89,73 @@ types of users with respect to addons, boilerplates and applications.
     - Create a project with boilerplate
 
   * - Anyone
-    -
-    -
-    -
-    - 
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
     - Only for public boilerplate
 
   * - Organisation collaborator
-    - Added as collaborator with "can update"
-    -
-    -
-    - 
+    - |check| Added as collaborator with "can update"
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
     - Only for public boilerplate
 
   * - Boilerplate collaborator
     - n/a
-    -
-    -
-    -
-    - 
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
+    - |check|
 
   * - Addon collaborator with "can update"
     - n/a
-    -
-    - (can also remove themselves?)
-    -
-    -
+    - |check|
+    - |check|
+    - |check|
+    - |check|
 
   * - Organisation owner/admin
-    - 
-    -
-    -
-    -
-    - 
+    - |check|
+    - |check|
+    - |check|
+    - |check|
+    - |check|
 
 
-.. list-table:: Applications
+Applications
+------------
+
+.. list-table:: 
   :widths: 20 20 20 20
   :header-rows: 1
- 
+
   * - User level
     - Create new application
     - Manage application settings
     - Manage collaborators
 
   * - Anyone
-    -
-    -
-    -
+    - |KHgr|
+    - |KHgr|
+    - |KHgr|
 
   * - Organisation collaborator
-    - Added as collaborator
-    -
-    - 
+    - |check| Added as collaborator
+    - |KHgr|
+    - |KHgr|
 
+  * - Application collaborator 
+    - n/a
+    - |check|
+    - |check|
+    
   * - Organisation owner/admin
-    - 
-    -
-    - 
+    - |check|
+    - |check|
+    - |check|
 
-
-Addons
-------
-
-+---------------+-------------+--------------+---------------+---------------+-------------------+------------------+
-| User level    |  Create new | Manage addon | Manage addon  | Upload new    |Install/ upgrade to|Manage settings on| 
-|               |  addon      | settings     | collaborators | addon version |a project [#f1]_   |a project [#f1]_  |
-+===============+=============+==============+===============+===============+===================+==================+
-| Anyone        |             |              |               |               | Only for public   | Only for already |
-|               |             |              |               |               | addons            | installed addons |
-+---------------+-------------+--------------+---------------+---------------+-------------------+------------------+
-| Organisation  |Added as     |              |               |               | Only for public   | Only for already |
-| collaborator  |collaborator |              |               |               | addons            | installed addons |
-|               |with "can    |              |               |               |                   |                  |
-|               |update"      |              |               |               |                   |                  |
-+---------------+-------------+--------------+---------------+---------------+-------------------+------------------+
-| Addon         | n/a         |              |               |               |                   |                  |
-| collaborator  |             |              |               |               |                   |                  |
-+---------------+-------------+--------------+---------------+---------------+-------------------+------------------+
-| Addon         | n/a         |              | can also      |               |                   |                  |
-| collaborator  |             |              | remove        |               |                   |                  |
-| with "can     |             |              | themselves    |               |                   |                  |
-| update"       |             |              |               |               |                   |                  |
-+---------------+-------------+--------------+---------------+---------------+-------------------+------------------+
-| Organisation  |             |              |               |               |                   |                  |
-| owner/admin   |             |              |               |               |                   |                  |
-+---------------+-------------+--------------+---------------+---------------+-------------------+------------------+
-
-
-Boilerplates
-------------
-
-+---------------+-------------+--------------+---------------+---------------+-----------------+
-| User level    | Create new  | Manage       | Manage        | Upload new    | Create          | 
-|               | boilerplate | boilerplate  | boilerplate   | boilerplate   | project with    |
-|               |             | settings     | collaborators | version       | boilerplate     |
-+===============+=============+==============+===============+===============+=================+
-| Anyone        |             |              |               |               | Only for public |
-|               |             |              |               |               | boilerplate     |
-+---------------+-------------+--------------+---------------+---------------+-----------------+
-| Organisation  |Added as     |              |               |               | Only for public |
-| collaborator  |collaborator |              |               |               | boilerplate     |
-|               |with "can    |              |               |               |                 |
-|               |update"      |              |               |               |                 |
-+---------------+-------------+--------------+---------------+---------------+-----------------+
-| Boilerplate   | n/a         |              |               |               |                 |
-| collaborator  |             |              |               |               |                 |
-+---------------+-------------+--------------+---------------+---------------+-----------------+
-| Boilerplate   | n/a         |              | can also      |               |                 |
-| collaborator  |             |              | remove        |               |                 |
-| with "can     |             |              | themselves    |               |                 |
-| update"       |             |              |               |               |                 |
-+---------------+-------------+--------------+---------------+---------------+-----------------+
-|  Organisation |             |              |               |               |                 |
-|  owner/admin  |             |              |               |               |                 |
-+---------------+-------------+--------------+---------------+---------------+-----------------+
-
-
-Applications
-------------
-
-+---------------+------------+--------------+---------------+
-| User level    | Create new | Manage       | Manage        |
-|               | application| application  | collaborators |
-+===============+============+==============+===============+
-| Anyone        |            |              |               |
-+---------------+------------+--------------+---------------+
-| Organisation  |Added as    |              |               |
-| collaborator  |collaborator|              |               |
-+---------------+------------+--------------+---------------+
-| Applications  | n/a        |              |               |
-| collaborator  |            |              |               |
-+---------------+------------+--------------+---------------+
-|  Organisation |            |              |               |
-|  owner/admin  |            |              |               |
-+---------------+------------+--------------+---------------+
-
-
-
-
-.. rubric:: Footnotes
 
 .. [#f1] Access to a project is a prerequisite for this action.
 
-
-.. only:: Internal
-
- For migration:
-
- Add owners as *Collaborators with "can update"* if they are not an admin of the organisation already.
