@@ -10,100 +10,123 @@
 
 .. include:: <isopub.txt> 
 
+
 .. raw:: html
 
   <style>
 
     /* Addons */
 
-    table.addons th {
-    background-color: darkgray;
+    /* Header row - gray */
+    table.addons thead tr:first-child th {
+      background-color: #ced4da !important;
     }
 
-    table.addons tr:nth-child(1), tr:nth-child(2), tr:nth-child(3) {
-    background-color: lightcoral;
+    /* Not allowed - red */
+    table.addons tr:nth-child(1), 
+    table.addons tr:nth-child(2), 
+    table.addons tr:nth-child(3) {
+      background-color: #F9DEDE;
     }
 
-    table.addons td:nth-child(6), td:nth-child(7), tr:nth-child(2) td:nth-child(2), tr:nth-child(4), tr:nth-child(5){
-    background-color: lightgreen;
+    /* Allowed - green */
+    table.addons td:nth-child(6), 
+    table.addons td:nth-child(7), 
+    table.addons tr:nth-child(2) td:nth-child(2), 
+    table.addons tr:nth-child(4), 
+    table.addons tr:nth-child(5) {
+      background-color: #E2E9C7;
     }
 
-    table.addons tr:nth-child(1) td:nth-child(6), tr:nth-child(2) td:nth-child(6){
-    background-color: lemonchiffon;
+    /* Caution - yellow */
+    table.addons tr:nth-child(1) td:nth-child(6), 
+    table.addons tr:nth-child(2) td:nth-child(6) {
+      background-color: #FFEDD8;
     }
 
-    table.addons tr td:first-child {
-    background-color: white;
+    /* Header column - white smoke */
+    table.addons tr th:first-child {
+    background-color: #eff3f5;
     }
     
-    table.addons tr:nth-child(3) td:nth-child(2), table.addons tr:nth-child(4) td:nth-child(2) {
-    background-color: lightgray;
-    }
-
-    table.addons tr:nth-child(2n) td:first-child {
-    background-color: whitesmoke;
+    /* Not applicable - light grey */
+    table.addons tr:nth-child(3) td:nth-child(2), 
+    table.addons tr:nth-child(4) td:nth-child(2) {
+      background-color: #dee2e6;
     }
   
 
     /* Boilerplates */
-
-    table.boilerplates th {
-    background-color: darkgray;
+   
+    /* Header row - gray */
+    table.boilerplates thead tr:first-child th {
+      background-color: #ced4da !important;
     }
 
-    table.boilerplates tr:nth-child(1), tr:nth-child(2), tr:nth-child(3) {
-    background-color: lightcoral;
+    /* Not allowed - red */
+    table.boilerplates tr:nth-child(1), 
+    table.boilerplates tr:nth-child(2), 
+    table.boilerplates tr:nth-child(3) {
+      background-color: #F9DEDE;
     }
 
-    table.boilerplates tr:nth-child(2) td:nth-child(2), tr:nth-child(3) td:nth-child(6), tr:nth-child(4), tr:nth-child(5){
-    background-color: lightgreen;
+    /* Allowed - green */
+    table.boilerplates tr:nth-child(2) td:nth-child(2), 
+    table.boilerplates tr:nth-child(3) td:nth-child(6),
+    table.boilerplates tr:nth-child(4), tr:nth-child(5) {
+      background-color: #E2E9C7;
     }
 
+    /* Caution - yellow */
+    table.boilerplates tr:nth-child(1) td:nth-child(6), 
+    table.boilerplates tr:nth-child(2) td:nth-child(6){
+      background-color: #FFEDD8;
+    }
+
+    /* Header column - white smoke */
+    table.addons tr th:first-child {
+      background-color: #eff3f5;
+    }
     
-    table.boilerplates tr:nth-child(1) td:nth-child(6), table.boilerplates tr:nth-child(2) td:nth-child(6){
-    background-color: lemonchiffon;
+    /* Not applicable - light grey */
+    table.boilerplates tr:nth-child(3) td:nth-child(2), 
+    table.boilerplates tr:nth-child(4) td:nth-child(2) {
+      background-color: #dee2e6;
     }
 
-    table.boilerplates tr td:first-child {
-    background-color: white;
-    }
-    
-    table.boilerplates tr:nth-child(3) td:nth-child(2), table.boilerplates tr:nth-child(4) td:nth-child(2) {
-    background-color: lightgray;
-    }
-
-    table.boilerplates tr:nth-child(2n) td:first-child {
-    background-color: whitesmoke;
-    }
-    
 
     /* Applications */
 
-    table.applications th {
-    background-color: darkgray;
+    /* Header row - gray */
+    table.applications thead tr:first-child th {
+      background-color: #ced4da !important;
     }
 
-    table.applications tr:nth-child(1), tr:nth-child(2) {
-    background-color: lightcoral;
+    /* Not allowed - red */
+    table.applications tr:nth-child(1), 
+    table.applications tr:nth-child(2) {
+      background-color: #F9DEDE;
     }
 
-    table.applications tr:nth-child(2) td:nth-child(2), tr:nth-child(3), tr:nth-child(4) {
-    background: lightgreen;
+    /* Allowed - light green */
+    table.applications tr:nth-child(2) td:nth-child(2), 
+    table.applications tr:nth-child(3), 
+    table.applications tr:nth-child(4) {
+      background: #E2E9C7;
     }
     
-    table.applications tr td:first-child {
-    background-color: white;
+     /* Header column - white smoke */
+    table.applications tr th:first-child {
+      background-color: #eff3f5;
     }
     
+    /* Not applicable - light grey */
     table.applications tr:nth-child(3) td:nth-child(2) {
-    background-color: lightgray;
-    }
-    
-    table.applications tr:nth-child(2n) td:first-child {
-    background-color:whitesmoke;
+      background-color: #dee2e6;
     }
 
   </style>
+
 
 
 Control panel permissions reference
@@ -119,6 +142,7 @@ Addons
 .. list-table::
   :widths: 20 30 20 20 20 25 30
   :header-rows: 1
+  :stub-columns: 1
   :class: addons
 
   * - User level
@@ -176,6 +200,7 @@ Boilerplates
 .. list-table::
   :widths: 30 20 20 20 20 25
   :header-rows: 1
+  :stub-columns: 1
   :class: boilerplates
 
   * - User level
@@ -228,6 +253,7 @@ Applications
   :class: applications
   :widths: 20 20 20 20
   :header-rows: 1
+  :stub-columns: 1
 
   * - User level
     - Create new application
