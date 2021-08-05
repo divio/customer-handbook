@@ -84,7 +84,7 @@
     }
 
     /* Header column - white smoke */
-    table.addons tr th:first-child {
+    table.boilerplates tr th:first-child {
       background-color: #eff3f5;
     }
     
