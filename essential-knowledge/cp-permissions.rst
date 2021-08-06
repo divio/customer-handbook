@@ -104,13 +104,14 @@
 
     /* Not allowed - red */
     table.applications tr:nth-child(1), 
-    table.applications tr:nth-child(2) {
+    table.applications tr:nth-child(2),
+    table.applications tr:nth-child(3) {
       background-color: #F9DEDE;
     }
 
     /* Allowed - light green */
     table.applications tr:nth-child(2) td:nth-child(2), 
-    table.applications tr:nth-child(3), 
+    table.applications tr:nth-child(3) td:nth-child(3), 
     table.applications tr:nth-child(4) {
       background: #E2E9C7;
     }
@@ -273,7 +274,7 @@ Applications
   * - Application collaborator 
     - n/a
     - |check|
-    - |check|
+    - |KHgr|
     
   * - Organisation owner/admin
     - |check|
